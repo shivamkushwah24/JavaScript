@@ -1,3 +1,21 @@
-const x =10
-const y = 20
-console.log(x+y);
+const accountId=1445553
+let accountEmail="shivam@gmail.com"
+var accountPassword="12345"
+accountcity="khargone"
+let accountState;
+
+// accountId=2  //not allowed
+
+accountEmail = "sk@gmail.com"
+accountPassword = "121212"
+accountcity = "indore"
+
+console.log(accountId);
+
+
+/*
+prefer not to use var
+because of issue in block scope and functional scope
+*/
+
+console.table([accountId,accountEmail,accountPassword,accountcity,accountState])
