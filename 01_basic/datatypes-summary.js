@@ -31,3 +31,28 @@ let myObj = {
 const myfunction = function(){
     console.log("Hello World");
 }
+
+
+// ++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap(Non-Primitive)
+
+let myYoutubename= "shivamkushwahcom"
+
+let anothername = myYoutubename
+anothername = "kushwahji"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "shivamkushwa@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
